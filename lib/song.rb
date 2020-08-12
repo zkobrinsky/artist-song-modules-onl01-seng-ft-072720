@@ -10,9 +10,9 @@ class Song
 
   @@all = []
 
-  # def initialize
-  #   @@all << self
-  # end
+  def initialize
+    super
+  end
 
   def self.all
     @@all
